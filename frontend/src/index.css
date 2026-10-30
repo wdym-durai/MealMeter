@@ -1,0 +1,9 @@
+/* MealMeter global base — minimal reset only; design system is in App.css */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
