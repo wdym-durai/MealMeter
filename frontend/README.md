@@ -1,16 +1,56 @@
-# React + Vite
+# MEALMETER
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+### Know the demand. Prepare the right amount.
 
-Currently, two official plugins are available:
+MealMeter is a sustainability-focused web prototype that helps colleges, hostels, canteens, schools, and other institutional kitchens estimate meal demand and prepare closer to the amount of food actually needed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌱 The Problem
 
-## React Compiler
+Large kitchens often prepare food using rough estimates. Preparing too much can create avoidable food waste, while preparing too little can leave people without enough food.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💡 The Solution
 
-## Expanding the Oxlint configuration
+MealMeter analyzes expected diners, meal type, day, and historical patterns to predict demand and recommend a preparation quantity.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ⚙️ How It Works
+
+1. Historical meal and attendance data is used as input.
+2. Transparent statistical modeling analyzes patterns.
+3. MealMeter predicts expected demand.
+4. It recommends a preparation quantity.
+5. Actual results can be compared with predictions for future planning.
+
+## 🌍 Sustainability Impact
+
+By helping kitchens prepare more accurately, MealMeter aims to reduce avoidable food waste and improve resource efficiency.
+
+The environmental and cost figures shown in the prototype are estimates based on standard food-system benchmarks, not measurements from a real cafeteria deployment.
+
+## 🛠️ Built With
+
+- React
+- Vite
+- JavaScript
+- HTML
+- CSS
+- Statistical modeling
+- Data visualization
+
+## 🚀 Live Demo
+
+https://meal-meter-two.vercel.app/
+
+## 🧪 Running Locally
+
+```bash
+npm install
+npm run dev
+```
+
+## 🔮 Future Improvements
+
+With real deployment data, MealMeter could incorporate actual attendance, leftovers, holidays, events, weather, and other factors.
+
+## 👤 Project
+
+Built for Green Shift Hacks 2026 as a sustainability-focused working prototype for reducing food waste.
